@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/trello-clone",
   siteMetadata: {
     title: `Trello Clone`,
     description: `Trello Clone`,

@@ -36,7 +36,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="header__right col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-lg-1">
-            <img src={headerimage} className="img-fluid"></img>
+            <img src={headerimage} className="img-fluid" alt="image"></img>
           </div>
         </div>
         <div className="space-3"></div>
@@ -74,7 +74,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="tasks__right col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-md-1">
-            <img className="tasks__img img-fluid" src={tasks}></img>
+            <img className="tasks__img img-fluid" src={tasks} alt="image"></img>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ const IndexPage = () => (
       <div className="info__container container">
         <div className="row align-items-center">
           <div className="info__left col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-            <img className="info__img img-fluid" src={mobile}></img>
+            <img className="info__img img-fluid" src={mobile} alt="image"></img>
           </div>
           <div className="info__right col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <h3>Information at a glance</h3>
@@ -120,7 +120,11 @@ const IndexPage = () => (
             </ul>
           </div>
           <div className="workflow__right col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 offset-md-1">
-            <img className="workflow__img img-fluid" src={butler}></img>
+            <img
+              className="workflow__img img-fluid"
+              src={butler}
+              alt="image"
+            ></img>
           </div>
         </div>
       </div>
@@ -141,7 +145,11 @@ const IndexPage = () => (
         </div>
         <div className="row">
           <div className="features__content col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <img className="features__photo img-fluid" src={collab} />
+            <img
+              className="features__photo img-fluid"
+              src={collab}
+              alt="image"
+            />
             <h5>The Team Playbook</h5>
             <div className="features__text">
               It’s easy to get your team up and running with Trello. We’ve
@@ -153,7 +161,11 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="features__content col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <img className=" features__img img-fluid" src={platform}></img>
+            <img
+              className=" features__img img-fluid"
+              src={platform}
+              alt="image"
+            ></img>
             <h5>A Productivity Platform</h5>
             <div className="features__text">
               Integrate the apps your team already uses directly into your
@@ -165,7 +177,11 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="features__content col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <img className=" features__img img-fluid" src={sync}></img>
+            <img
+              className=" features__img img-fluid"
+              src={sync}
+              alt="image"
+            ></img>
             <h5>Always In Sync</h5>
             <div className="features__text">
               No matter where you are, Trello stays in sync across all of your
@@ -173,8 +189,16 @@ const IndexPage = () => (
               bus to sitting on the beach.
             </div>
             <div className="features__icons">
-              <img className="features__icon img-fluid" src={appstore}></img>
-              <img className="features__icon img-fluid" src={playstore}></img>
+              <img
+                className="features__icon img-fluid"
+                src={appstore}
+                alt="image"
+              ></img>
+              <img
+                className="features__icon img-fluid"
+                src={playstore}
+                alt="image"
+              ></img>
             </div>
           </div>
         </div>
@@ -186,7 +210,7 @@ const IndexPage = () => (
 
     <section className="companies d-flex flex-column align-items-center justify-content-start">
       <div className="companies__container container">
-        <div className="row ">
+        <div className="row">
           <div className="companies__content d-flex flex-column align-items-center justify-content-center">
             <div className="space-4"></div>
             <h2>Work smarter with Trello</h2>
@@ -194,10 +218,26 @@ const IndexPage = () => (
               Companies of all shapes and sizes are using Trello
             </div>
             <div className="companies__list">
-              <img className="companies__item img-fluid" src={kickstarter} />
-              <img className="companies__item img-fluid" src={natgeo} />
-              <img className="companies__item img-fluid" src={google} />
-              <img className="companies__item img-fluid" src={fender} />
+              <img
+                className="companies__item img-fluid"
+                src={kickstarter}
+                alt="image"
+              />
+              <img
+                className="companies__item img-fluid"
+                src={natgeo}
+                alt="image"
+              />
+              <img
+                className="companies__item img-fluid"
+                src={google}
+                alt="image"
+              />
+              <img
+                className="companies__item img-fluid"
+                src={fender}
+                alt="image"
+              />
             </div>
             <div className="btn btn-default d-flex align-items-center justify-content-center">
               Find out how&nbsp;&rarr;
@@ -226,7 +266,11 @@ const IndexPage = () => (
                 Get Started - It's Free!
               </div>
             </div>
-            <img className="planning__image img-fluid" src={planning}></img>
+            <img
+              className="planning__image img-fluid"
+              src={planning}
+              alt="image"
+            ></img>
           </div>
         </div>
       </div>
@@ -288,7 +332,11 @@ const IndexPage = () => (
               <div className="footer__item">Privacy</div>
             </div>
             <div className="space-1"></div>
-            <img className="footer__atlassian img-fluid" src={atlassian}></img>
+            <img
+              className="footer__atlassian img-fluid"
+              src={atlassian}
+              alt="image"
+            ></img>
             <div className="space-1"></div>
             <div className="footer__copy">
               &copy; Copyright 2020. All rights reserved.
