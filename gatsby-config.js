@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Trello Clone`,
     description: `Trello Clone`,
-    author: `@hileets`,
+    author: `hileets`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
