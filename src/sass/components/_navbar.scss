@@ -1,0 +1,43 @@
+.navigation {
+  position: fixed;
+  min-height: 6vh;
+  height: max-content;
+  background-image: linear-gradient(to right, $primary, $primary-low);
+  color: white;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 8px $primary-high;
+
+  &__row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-default {
+    background-color: transparent;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    transition: all 0.5s ease;
+    &:hover {
+      transition: all 0.5s ease;
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .signup {
+    background-color: white;
+    color: $primary;
+    &:hover {
+      transition: all 0.5s ease;
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+}
